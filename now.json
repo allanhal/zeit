@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "alias": [
+    "zeitnow-presentation"
+  ],
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@now/static"
+    },
+    {
+      "src": "name/index.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "date/index.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "*.php",
+      "use": "@now/php"
+    },
+    {
+      "src": "*.py",
+      "use": "@now/python"
+    },
+    {
+      "src": "*.go",
+      "use": "@now/go"
+    }
+  ],
+  "public": true
+}

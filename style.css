@@ -1,0 +1,15 @@
+h1 {
+  text-align: center; 
+  margin-top: 70px; 
+  margin-bottom: 70px; 
+  font-size: 45px; 
+  font-family: Helvetica; 
+} 
+a {
+  color: #0076FF; 
+  text-decoration: none; 
+} 
+p {
+  text-align: center; 
+  font-size: 30px; 
+}
